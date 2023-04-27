@@ -1,0 +1,7 @@
+# Parte 1 – Optimización del tamaño de los ficheros
+# Parte 2 – Diccionario de datos
+# Parte 3 – Personal Keys
+# Parte 4 – Foreign Keys
+# Parte 5 – Crawler de YahooFinance
+# Parte 6 – Parser de JSON
+# Parte 7 – Mejora del script de ejemplo
