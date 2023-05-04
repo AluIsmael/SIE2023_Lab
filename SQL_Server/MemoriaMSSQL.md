@@ -1,7 +1,7 @@
 # Parte 1 – Optimización del tamaño de los ficheros
 Para reducir el tamaño de la base de datos, una vez importada en SQL Server seguimos estos pasos:  
  - ClickDerecho en la base de datos --> Tasks --> Shrink --> Database/Files (una vez cada opción).  
- - Cambiar los tipos de las columnas cuyo tipo ocupe demasiado espacio para lo que almacenan.  
+ - Cambiar los tipos de las columnas cuyo tipo ocupe demasiado espacio para lo que almacenan, pero si la columna es una FK entonces toma la longitud de la columna a la que referencie.  
   
 En nuestro caso además de utilizar la herramienta 'Shrink' hemos cambiado el tipo de gran parte de las columnas de char(500) a char() con longitud igual a la máxima longitud de un dato guardado en la columna.  
   
