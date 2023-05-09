@@ -3,8 +3,9 @@ Para reducir el tamaño de la base de datos, una vez importada en SQL Server seg
  - Cambiar los tipos de las columnas de char(500) a varchar(500), de forma que el almacenamiento es dinámico pero el tamaño máximo igual asegura que no haya problemas de espacio en ninguna tabla.  
  - ClickDerecho en la base de datos --> Tasks --> Shrink --> Database/Files (una vez cada opción).  
   
-Los archivos de la base de datos sin reducir el tamaño quedan de la siguiente forma:  
-![image](https://user-images.githubusercontent.com/114938688/236152587-d7d8c5da-19f1-4109-b832-45c578f53fe6.png)  
+El tamaño de la base de datos sin reducir queda de la siguiente forma:  
+![image](https://github.com/AluIsmael/SIE2023_Lab/assets/114938688/a3072aaf-2f8e-4922-8ee3-ef0f52d15798)  
+
 #TODO: Volver a realizar todos los procedimientos y documentar el orden  
 Una vez realizados los pasos definidos previamente el tamaño queda reducido en un 53% (IMPRECISO: Esta imagen se ha tomado solo habiendo utilizado el Shrink):  
 ![image](https://user-images.githubusercontent.com/114938688/236155658-fd093a24-68e4-4be4-99ac-7c7e33a32d95.png)  
