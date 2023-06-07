@@ -1,7 +1,7 @@
 # Parte 1 – Optimización del tamaño de los ficheros
 Para reducir el tamaño de la base de datos, una vez importada en SQL Server seguimos estos pasos:  
  - Cambiar los tipos de las columnas de char(500) a varchar(500), de forma que el almacenamiento es dinámico pero el tamaño máximo igual asegura que no haya problemas de espacio en ninguna tabla.  
- - ClickDerecho en la base de datos --> Tasks --> Shrink --> Database/Files (una vez cada opción).  
+ - ClickDerecho en la base de datos --> Tasks --> Shrink --> Database.  
   
 El tamaño de la base de datos sin reducir queda de la siguiente forma:  
 ![image](https://github.com/AluIsmael/SIE2023_Lab/assets/114938688/a3072aaf-2f8e-4922-8ee3-ef0f52d15798)  
